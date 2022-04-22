@@ -1,7 +1,7 @@
 # Learning-to-Borrow-for-KGs
 Learning to Borrow – Relation Representation for Without-Mention Entity-Pairs for Knowledge Graph Completion
 
-This repository is for learning-to-Borrow (SuperBorrow) model that integrates a text corpus with a Knowledge Graph (KG) to improve Knowledge Graph Embeddings (KGEs). In particular, SuperBorrow borrows Lexicalised Dependency Paths (LDPs), that are extracted from a text corpus, from the entity-pairs that co-occur in sentencs in the corpus (with-mentions) to represent entity-pairs that do not co-occur in any sentence in the corpus (without-mentions). 
+This repository is for learning-to-Borrow (SuperBorrow) model that integrates a text corpus with a Knowledge Graph (KG) to improve Knowledge Graph Embeddings (KGEs). In particular, SuperBorrow borrows Lexicalised Dependency Paths (LDPs), that are extracted from a text corpus, from the entity-pairs that co-occur in sentencs in the corpus (with-mentions) to represent entity-pairs that do not co-occur in any sentence in the corpus (without-mentions). The augmented KG is used to train several well-known KGE methods. The learnt KGEs have shown superior performance for link/relation prediction. 
 
 If you use SuperBorrow for any published research, please include the following citation:
 
