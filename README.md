@@ -18,4 +18,4 @@ To train SuperBorrow model you require:
      - sentence_transformers
      - sklearn
 
-The KGEs in this work is trained using [OpenKE](https://github.com/thunlp/OpenKE) that is implemented with Pytorch. 
+The KGEs for TransE, DistMult, ComplEx and RotatE in this work are trained using [OpenKE](https://github.com/thunlp/OpenKE) that is implemented with Pytorch. 
