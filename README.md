@@ -7,3 +7,15 @@ If you use SuperBorrow for any published research, please include the following 
 
 "Learning to Borrow – Relation Representation for Without-Mention Entity-Pairs for Knowledge Graph Completion"
 Huda Hakami, Mona Hakami, Angrosh Mandya and Danushka Bollegala, Proc. of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), Seattle, USA, 2022. 
+
+# Prerequisites 
+
+To train SuperBorrow model you require:
+
+
+     - python 
+     - tensorflow
+     - sentence_transformers
+     - sklearn
+
+The KGEs in this work is trained using [OpenKE](https://github.com/thunlp/OpenKE) that is implemented with Pytorch. 
