@@ -8,6 +8,10 @@ If you use SuperBorrow for any published research, please include the following 
 "Learning to Borrow – Relation Representation for Without-Mention Entity-Pairs for Knowledge Graph Completion"
 Huda Hakami, Mona Hakami, Angrosh Mandya and Danushka Bollegala, Proc. of the Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), Seattle, USA, 2022. 
 
+# Overview
+In Knowledge Graph Completion (KGC) if two entities co-occur in the same sentence, it is relatively easy to extract semantic relations between them even using simple methods such as Lexicalised Dependency Paths (LDPs). But what do we do when they don't? These so-called "without-mention" entity pairs cannot be appended to a knowledge graph because they do not have relational edges. This prevents us from learning KGEs for such entities. In our paper, we propose a method to borrow LDPs from with-mention entity pairs to represent the relations that exist between without-mention entity pairs. The proposed method (SuperBorrow) learns how to best borrow LDPs such that we can use those borrowed LDPs to append the without-mention entity pairs to KGs. This borrowing technique is a preprocessing step to KGE learning, which works directly on the KG and is independent of any KGE learning method. This enables you to run your favourite KGE method on the processed KG. 
+ 
+
 # Prerequisites 
 
 To train SuperBorrow model you require:
